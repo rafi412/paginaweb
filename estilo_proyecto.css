@@ -1,0 +1,252 @@
+body{
+	background-color: #dfdfdf;
+}
+
+#contenedor{
+  width: 770px;
+  margin: 0 auto;
+  background-image: url(imagenes_proyecto/fondo_proyecto.jpg);
+}
+
+#cabecera{
+	background-color: lightblue;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+	color: black;
+	width: 800px;
+	height: 100px;
+	border: solid;
+	margin: 0 auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-repeat: no-repeat;
+}
+
+#menu_izquierda{
+	float: left;
+	height: 200px;
+}
+
+#menu_izquierda a{
+	text-align: center;
+	vertical-align: middle;
+	color: orangered;
+	padding-top: 10px;
+	height: 40px;
+	display: block;
+	margin-bottom: 5px;
+	border: solid;
+	border-color: purple;
+  background-color: #F7DC6F;
+}
+
+#menu_izquierda a:hover{
+  background-color: #F9E79F;
+}
+
+#menu_arriba{
+  margin: 0 auto;
+	height: 60px;
+  padding: 10px;
+  width: 600px;
+  display: flex;
+  
+  /* Propiedad eliminada por no ser necesaria:
+  flex-direction: row; */
+  
+  /* Propiedad añadida: */
+  flex-wrap: wrap; /* Para "encerrar" los elementos dentro del div*/
+}
+
+#basket{
+  float: left;
+  margin-right: 30px;
+}
+
+/* Dropdown Button */
+#dropbtn_b {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px
+}
+
+/* The container <div> - needed to position the dropdown content */
+#dropdown_b {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#dropdown-content_b {
+  display: none;
+  position: absolute;
+  background-color: #F7F9F9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+#dropdown-content_b a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+#dropdown-content_b a:hover {background-color: #F6DDCC;
+}
+
+/* Show the dropdown menu on hover */
+#dropdown_b:hover #dropdown-content_b {
+  display: block;
+  animation: linear;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#dropdown_b:hover #dropbtn_b {background-color: #3e8e41;}
+
+#futbol{
+  clear: right;
+  margin-right: 30px;
+}
+
+/* Dropdown Button */
+#dropbtn_f {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+    border-top-right-radius: 10px;
+border-top-left-radius: 10px
+}
+
+/* The container <div> - needed to position the dropdown content */
+#dropdown_f {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#dropdown-content_f {
+  display: none;
+  position: absolute;
+  background-color: #F7F9F9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+/* Links inside the dropdown */
+#dropdown-content_f a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+#dropdown-content_f a:hover {background-color: #F6DDCC;}
+
+/* Show the dropdown menu on hover */
+#dropdown_f:hover #dropdown-content_f {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#dropdown_f:hover #dropbtn_f {background-color: #3e8e41;}
+
+#tenis{
+  clear: right;
+  margin-right: 30px;
+}
+
+#ropa{
+  clear: right;
+  margin-right: 30px;
+}
+
+#zapatos{
+  clear: right;
+  margin-right: 30px;
+}
+
+#formulario{
+  border: solid;
+  border-color: seagreen;
+  margin: 0 auto;
+  width: 600px;
+  background-color: #EDBB99;
+  padding-left: 10px;
+}
+
+#descripcion{
+  border: solid;
+  border-color: lightblue;
+  width: 400px;
+  padding: 8px;
+  margin-right: 150px;
+  background-color: #ABEBC6;
+  margin: 0 auto;
+}
+
+#titulo_desc{
+  text-align: center;
+}
+
+#parrafo_desc{
+  font-size: 17px;
+}
+
+#ofertas{
+  border: solid;
+  border-color: black;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  flex-wrap: wrap;  
+}
+
+#balon_basket{
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+#balon{
+  float: left;
+  color: sandybrown;
+  font-size: 17px;
+}
+
+#botas_f{
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+#botas{
+  color: sandybrown;
+  font-size: 17px;
+  float: right;
+}
+
+#titulo_desc_contacto{
+  margin: 0 auto;
+  width: 400px;
+  border: solid;
+  border-color: #F4D03F;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
